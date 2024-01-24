@@ -10,7 +10,7 @@
     "pdh4869"
   ],
   "author": "pdh4869",
-  "license": "ISC"
+  "license": "ISC",
   "bin": {
 	  "pdh4869": "./index.js"
   }
