@@ -1,7 +1,7 @@
 {
   "name": "pdh4869",
   "version": "0.1.0",
-  "description": "dhpark npm",
+  "description": "npm_dhpark",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,5 @@
     "pdh4869"
   ],
   "author": "pdh4869",
-  "license": "ISC",
-  "bin": {
-    "pdh4869": "index.js"
-  }
+  "license": "ISC"
 }
