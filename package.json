@@ -1,6 +1,6 @@
 {
   "name": "pdh4869",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "npm_dhpark",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
     "pdh4869"
   ],
   "author": "pdh4869",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+	  "pdh4869": "./index.js"
+  }
 }
