@@ -12,6 +12,6 @@
   "author": "pdh4869",
   "license": "ISC",
   "bin": {
-    "pdh4869": "index.js"
+	  "pdh4869": "./index.js"
   }
 }
