@@ -4,3 +4,6 @@
 
 # 0.2.0
 - [ ] convert image to ascii (multiline print)
+
+# 0.2.1
+- [ ] modified
