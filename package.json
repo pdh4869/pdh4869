@@ -1,0 +1,14 @@
+{
+  "name": "pdh4869",
+  "version": "0.1.0",
+  "description": "dhpark npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello, pdh4869\""
+  },
+  "keywords": [
+    "pdh4869"
+  ],
+  "author": "pdh4869",
+  "license": "ISC"
+}
