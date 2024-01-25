@@ -56,6 +56,7 @@ class A extends Person {
 }
 if (a.length < 2) {
 	console.log('인자를 둘 이상 입력해주세요');
+	process.exit();
 } else {
 	person = new A(a[Math.floor(Math.random()*a.length)]);
 }
