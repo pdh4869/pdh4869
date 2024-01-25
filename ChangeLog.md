@@ -3,10 +3,13 @@
 - [x] deploy to npm site
 
 # 0.2.0
-- [ ] convert image to ascii (multiline print)
+- [x] convert image to ascii (multiline print)
 
 # 0.2.1
-- [ ] modified
+- [x] modified
 
 # 0.2.2
-- [ ] quiz
+- [x] quiz
+
+# 0.2.3
+- [x] js cli package (constructor, method, function)

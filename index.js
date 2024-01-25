@@ -1,5 +1,14 @@
 #!/usr/bin/env node
 
+class Person {
+	constructor(name) {
+		this.name = name;
+	}
+	speaker() {
+		console.log(this.name);
+	}
+}
+
 const a = process.argv.slice(2)
 
 
@@ -40,4 +49,10 @@ console.log(`-------------------------------------------------------------------
 %%%%%%%%%%%%%%%%%%%####%##%########***###**#**#####**##**###############*###**###*####%%%%%%%%%%%%%%
 %%%%%%%%%%%#%%%###%%#%#%%#%###############%##################################%%%%#%%%%%%%%%%%%%%%%%%`);
 
-console.log('발표자: '+a[Math.floor(Math.random()*3)]);
+class A extends Person {
+	constructor(name) {
+		super(name);
+	}
+}
+person = new A(a[Math.floor(Math.random()*3)]);
+person.speaker();
