@@ -13,3 +13,9 @@
 
 # 0.2.3
 - [x] js cli package (constructor, method, function)
+
+# 0.2.4 
+- [x] fixed 
+
+# 0.2.5 
+- [ ] modified README.md, process exit... 
