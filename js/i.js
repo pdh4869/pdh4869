@@ -1,5 +1,4 @@
 
-const a = process.argv.slice(2);
+const a = process.argv;
 
-console.log(a[Math.floor(Math.random() * 3)]);
-
+console.log(a);
