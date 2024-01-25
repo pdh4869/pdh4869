@@ -23,7 +23,7 @@ class Chicken extends Food {
 		super(name);
 	}	
 }
-pizza = new Pizza('피자');
+pizza = new Food('피자');
 pizza.addBrand('피자헛');
 pizza.addBrand('도미노피자');
 
