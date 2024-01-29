@@ -21,4 +21,7 @@
 - [x] modified README.md, process exit... 
 
 # 0.3.0 
-- [ ] using rest parameters
+- [x] using rest parameters
+
+# 0.3.1
+- [ ] add default parameter
