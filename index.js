@@ -9,7 +9,6 @@ class Person {
 	}
 }
 
-const a = process.argv.slice(2)
 
 
 console.log(`----------------------------------------------------------------------------------------------------
@@ -54,10 +53,19 @@ class A extends Person {
 		super(name);
 	}
 }
-if (a.length < 2) {
-	console.log('인자를 둘 이상 입력해주세요');
-	process.exit();
-} else {
-	person = new A(a[Math.floor(Math.random()*a.length)]);
+
+function speak(...args) {
+	const a = args.flat();
+
+	if (a.length < 2) {
+		console.log('인자를 둘 이상 입력해주세요');
+		process.exit();
+	} else {
+		person = new A(a[Math.floor(Math.random()*a.length)]);
+	}
+	person.speaker();
 }
-person.speaker();
+
+const arr = process.argv.slice(2);
+
+speak(arr);
