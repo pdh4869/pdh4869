@@ -18,4 +18,10 @@
 - [x] fixed 
 
 # 0.2.5 
-- [ ] modified README.md, process exit... 
+- [x] modified README.md, process exit... 
+
+# 0.3.0 
+- [x] using rest parameters
+
+# 0.3.1
+- [ ] add default parameter

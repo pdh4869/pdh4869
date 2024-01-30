@@ -58,10 +58,21 @@ class A extends Person {
 		super(name);
 	}
 }
-if (a.length < 2) {
-	console.log('인자를 둘 이상 입력해주세요');
-	process.exit();
-} else {
-	person = new A(a[Math.floor(Math.random()*a.length)]);
+
+function speak(message, ...args) {
+	const a = args.flat();
+
+	if (a.length < 2) {
+		console.log(message);
+		process.exit();
+	} else {
+		person = new A(a[Math.floor(Math.random()*a.length)]);
+	}
+	return person;
 }
+
+const arr = process.argv.slice(2);
+
+var person = speak(message='인자를 둘 이상 입력해 주세요', arr);
+
 person.speaker();
